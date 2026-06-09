@@ -4,31 +4,53 @@
 
 This project investigates the interaction between the Epidermal Growth Factor Receptor (EGFR) kinase domain and the anti-cancer drug Gefitinib using structural bioinformatics techniques.
 
-## Objectives
+---
 
-- Retrieve EGFR crystal structure from RCSB PDB
-- Identify the bound ligand (Gefitinib)
-- Detect amino acids within the binding pocket
-- Analyze biologically important interactions
-- Visualize the protein-ligand complex
+## 3D Structure Visualization
+
+![EGFR-Gefitinib Complex](results/images/egfr_gefitinib_3d_view.png)
+
+The figure above shows the crystal structure of the EGFR kinase domain bound to Gefitinib (PDB ID: 4WKQ).
+
+---
+
+## Binding Pocket Analysis
+
+![Binding Pocket Residues](results/images/egfr_binding_pocket_residues.png)
+
+Key residues interacting with Gefitinib were identified and visualized.
+
+---
 
 ## Structure Information
 
-- PDB ID: 4WKQ
-- Protein: EGFR Kinase Domain
-- Ligand: Gefitinib (IRE)
-- Resolution: 1.85 Å
+| Parameter | Value |
+|------------|--------|
+| PDB ID | 4WKQ |
+| Protein | EGFR Kinase Domain |
+| Ligand | Gefitinib (IRE) |
+| Resolution | 1.85 Å |
+
+---
 
 ## Key Findings
 
-The analysis identified 21 residues surrounding the Gefitinib binding pocket.
+- Identified 21 residues interacting with Gefitinib.
+- Key binding residues:
+  - LYS745 (Catalytic Residue)
+  - THR790 (Gatekeeper Residue)
+  - MET793 (Hydrogen Bond Residue)
+  - LEU844 (Hydrophobic Pocket Residue)
 
-Important residues include:
+---
 
-- LYS745 (Catalytic Residue)
-- THR790 (Gatekeeper Residue)
-- MET793 (Hydrogen Bond Residue)
-- LEU844 (Hydrophobic Pocket Residue)
+## Biological Significance
+
+Gefitinib is a first-generation EGFR tyrosine kinase inhibitor used in the treatment of non-small cell lung cancer (NSCLC).
+
+THR790 is a clinically important gatekeeper residue. Mutations such as T790M are a major cause of acquired resistance to Gefitinib therapy.
+
+---
 
 ## Technologies Used
 
@@ -39,15 +61,16 @@ Important residues include:
 - py3Dmol
 - Jupyter Notebook
 
-## Biological Significance
+---
 
-Gefitinib is a first-generation EGFR tyrosine kinase inhibitor used in the treatment of non-small cell lung cancer (NSCLC).
+## Project Structure
 
-The analysis identified several key residues involved in ligand binding:
-
-- LYS745: Catalytic residue important for kinase activity
-- THR790: Gatekeeper residue associated with drug resistance
-- MET793: Key hydrogen-bond interaction residue
-- LEU844: Hydrophobic pocket residue
-
-Mutations such as T790M can reduce the effectiveness of Gefitinib and are a major cause of acquired drug resistance in cancer therapy.
+```text
+EGFR_Gefitinib_Interaction_Analysis
+│
+├── data
+├── notebooks
+├── results
+├── README.md
+└── requirements.txt
+```
