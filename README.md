@@ -44,6 +44,18 @@ Key residues interacting with Gefitinib were identified and visualized.
 
 ---
 
+## Skills Demonstrated
+
+- Structural Bioinformatics
+- Protein Structure Analysis
+- Protein-Ligand Interaction Analysis
+- BioPython
+- Data Visualization
+- Scientific Computing with Python
+- Drug Discovery Concepts
+
+---
+
 ## Biological Significance
 
 Gefitinib is a first-generation EGFR tyrosine kinase inhibitor used in the treatment of non-small cell lung cancer (NSCLC).
